@@ -10,8 +10,8 @@ import {
 
 const Sidebar = () => {
   return (
-    <aside className="flex flex-col h-screen w-16 border-r-2 border-solid">
-      <div>
+    <aside className="static h-screen w-16 border-r-2 border-solid">
+      <div className="fixed">
         <VscFiles size={30} className="mx-4 my-4 text-gray-600" />
         <VscCode size={30} className="mx-4 my-4 text-gray-600" />
         <VscGithubAlt size={30} className="mx-4 my-4 text-gray-600" />
